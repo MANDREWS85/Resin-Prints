@@ -23,10 +23,10 @@ p {
 #Website {
   color:black;
   margin: auto;
-  width: 100%;
+  width: 97%;
   border: 3px solid ;
-  padding: 10px;
-  background-image:url('https://images.pexels.com/photos/355321/pexels-photo-355321.jpeg') ;
+  padding: 0px;
+  background-image:url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,8 +40,10 @@ p {
   padding: 10px;
   opacity: .85;
   background-size:100% 100%;
+  background-color:#eeeeec;
   height:300px;
   max-width:300px; 
+  opacity: 1;
 }
 
 #ContentContainer {
@@ -52,24 +54,31 @@ p {
   padding: 10px;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
 }
 
 #Content {
   border-radius: 25px;
   text-decoration-color:white;
-  margin: 0;
+  margin: auto;
   width: 80%;
   border: 3px solid ;
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:white;
+  background-color:#888a85;
   opacity:.85;
+}
+
+#ImageContainer {
+  min-height:600;
+  width:auto;
+  
 }
 
 #Button {
   border-radius: 25px;
-  background-color:white;
+  background-color:#888a85;
   margin: auto;
   width: 100%;
   min-width:100px;
@@ -80,17 +89,21 @@ p {
 }
 
 #Button:hover {
-  background-color: #4e9a06;
+  background-color: #729fcf;
 }
 
 #Banner {
   border-radius: 25px;
-  background-image:url('') ;
-  background-color:white;
+  background-image:url('https://i.ebayimg.com/images/g/-LoAAOSwcYpjvfdD/s-l1600.png') ;
+  background-color:#555753;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: auto;
   width: 100%;
+  min-height:300px;
+  max-height:480px;
   border: 0px solid ;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   opacity: 0.85;
 
@@ -107,13 +120,13 @@ p {
 }
 
 #StoreOne {
-  margin: 0;
+  margin: auto;
   display:flex;
   flex-wrap:wrap;
   margin: auto;
   width: 100%;
   border: 0px solid ;
-  padding: 5px;
+  padding: 0px;
 
   
   
@@ -124,7 +137,5 @@ p {
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
 }
-
-
 
 

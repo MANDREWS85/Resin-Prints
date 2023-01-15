@@ -4,7 +4,7 @@ export default function Button({text,link}) {
   
   return(
     <div>
-      <button id={id} onClick={()=>{}}>{text}</button>
+      <button id={id} onClick={()=>{window.open(link)}}>{text}</button>
     </div>
 
     
